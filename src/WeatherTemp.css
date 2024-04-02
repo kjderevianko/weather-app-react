@@ -1,0 +1,15 @@
+.units {
+  color: #5a6275;
+  font-size: 20px;
+  position: relative;
+  top: -24px;
+}
+
+.units a {
+  text-decoration: none;
+}
+
+#temp {
+  font-size: 58px;
+  font-weight: 600;
+}

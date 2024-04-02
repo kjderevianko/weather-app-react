@@ -1,14 +1,35 @@
 import React from "react";
-import Weather from "./weather";
+import Weather from "./Weather";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello React</h1>
-        <Weather />
-      </header>
+      <div className="Container">
+        <div className="app-wrapper">
+          <Weather defaultCity="Amsterdam" />
+          <footer>
+            This project was coded by {""}
+            <a
+              href="https://github.com/kjderevianko"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Kateryna Derevianko
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/kjderevianko/weather-app-react"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and hosted on Netlify
+          </footer>
+        </div>
+      </div>
     </div>
   );
 }
