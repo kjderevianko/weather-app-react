@@ -3,6 +3,7 @@ import axios from "axios";
 import WeatherUpdate from "./WeatherUpdate";
 import DailyForecast from "./DailyForecast";
 import "./Weather.css";
+import "bootstrap";
 
 export default function Weather(props) {
   const apiKey = "bd5b4461863eddaa6ced0a0a67989e0a";
