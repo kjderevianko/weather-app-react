@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function DailyForecast(props) {
-  const apiKey = "bd5b4461863eddaa6ced0a0a67989e0a";
+  const apiKey = "ff1d9ea9376b5c27a82e04fc2b2abdbb";
   const apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${props.coords.lat}&lon=${props.coords.lon}&appid=${apiKey}&units=metric`;
   const [loaded, setLoaded] = useState(false);
   const [forecast, setForecast] = useState(null);

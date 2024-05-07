@@ -6,7 +6,7 @@ import "./Weather.css";
 import "bootstrap";
 
 export default function Weather(props) {
-  const apiKey = "bd5b4461863eddaa6ced0a0a67989e0a";
+  const apiKey = "ff1d9ea9376b5c27a82e04fc2b2abdbb";
   const apiUrl = "https://api.openweathermap.org/data/2.5/weather?";
 
   const [weatherData, setWeatherData] = useState({ ready: false });
